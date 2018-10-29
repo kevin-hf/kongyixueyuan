@@ -1,0 +1,36 @@
+{{/*
+    author: hanxiaodong
+*/}}
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="common menu">
+    <ul>
+        <li><a href="/index.html"><img src="/static/img/chaindesk.png" width="120px" height="50px"/></a></li>
+        <li><a href="/queryReq?name=Hanxiaodong">查询信息</a></li>
+        <li><a href="/setInfo.html">设置/修改</a></li>
+    </ul>
+</div>
+
+<div class="common main">
+    <div class="content">
+        <h2>查询结果</h2>
+        <div class="msg">
+            Hanxiaodong:&nbsp;&nbsp;&nbsp;&nbsp;{{.Msg}}
+        </div>
+        <div class="calink">
+            <a href="/index.html">返回首页</a><br/>
+            <a href="/setInfo.html">设置/修改</a>
+        </div>
+    </div>
+</div>
+
+<div class="common footer">
+    孔壹学院出品：一个基于 Hyperledger Fabric-SDK-GO 的Web应用示例.
+</div>
+</body>
+</html>

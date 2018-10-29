@@ -1,0 +1,80 @@
+/*
+  author: hanxiaodong
+*/
+.common{
+    line-height: 60px;
+    background-color: whitesmoke;
+    width: 900px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.menu{
+    text-align:center;
+    margin: 30px auto;
+}
+
+.menu ul {
+    width: 460px;
+    list-style-type:none;
+    margin: 0px auto;
+    padding:0px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li {
+    float:left;
+}
+.menu ul li a img{
+  margin-top: 5px;
+}
+.menu ul a:link,a:visited {
+    display:block;
+    color: #808080;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.menu ul a:hover,a:active {
+    background-color:#d3d3d3;
+}
+
+.main {
+    text-align: left;
+    line-height: normal;
+
+}
+.content{
+    padding: 10px;
+}
+.content .msg {
+    margin-left: 80px;
+    font-weight: bolder;
+}
+.main .msg .showMsg{
+    width: 600px;
+    background-color: #99CC99;
+    color: #006600;
+    line-height: 30px;
+    margin: 10px 0px;
+    padding-left: 10px;
+    font-family: "Serif";
+    font-size: 14px;
+}
+.main .msg .formInfo{
+    margin-top: 20px;
+}
+.main .msg .formInfo input{
+    height: 30px;
+    font-size: 16px;
+}
+.calink{
+    margin-top: 20px;
+}
+.calink a{
+    line-height: 26px;
+    text-decoration: none
+}
+.footer{
+    margin-top: 60px;
+    font-weight: bolder;
+}
