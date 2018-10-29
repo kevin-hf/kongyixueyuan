@@ -1,9 +1,9 @@
 
-#从零到壹构建基于 Fabric-SDK-Go 的Web应用
+# 从零到壹构建基于 Fabric-SDK-Go 的Web应用
 
-##引言
+## 引言
 
-###a. 说明
+### a. 说明
 
 我们不会在本教程中详细解释 Hyperledger Fabric 的工作原理。在学习本教程之前，您应该通过Hyperledger Fabric [官网](https://hyperledger-fabric.readthedocs.io/en/release-1.2/whatis.html) 或其它渠道学习 Hyperledger Fabric 的一些知识，以具备 Hyperledger  Fabric 操作基础。
 
@@ -25,7 +25,7 @@ Hyperledger Fabric简介
 
 ## 1. 先决条件
 
-###1.1. 安装 vim、git
+### 1.1. 安装 vim、git
 
 ```shell
 $ sudo apt install vim
@@ -125,7 +125,7 @@ $ go version
 
 ![Go版本](./img/go_version.png)
 
-##2. 网络环境
+## 2. 网络环境
 
 ### 2.1. 网络环境准备
 
@@ -176,7 +176,7 @@ $ ./pull_images.sh
 
 > 提示：`pull_images.sh` 文件是下载 Fabric 环境所需容器的一个可执行脚本，下载过程需要一段时间（视网速情况而定），请耐心等待。另：请确定您的系统支持虚拟技术。
 
-###2.2. 配置docker-compose.yml文件
+### 2.2. 配置docker-compose.yml文件
 
 在 `fixtures`  目录下创建一个 `docker-compose.yml`  文件并编辑
 
